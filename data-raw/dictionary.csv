@@ -1,0 +1,6 @@
+variable,description
+T/K,temperature
+rho/(kg/m3),density
+cp/(J/(kg.K)),"isobaric specific heat"
+K/(W/(m.K)),"thermal conductivity"
+alpha_thermal/(1/K),"thermal expansion coefficient"

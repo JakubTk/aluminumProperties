@@ -1,3 +1,6 @@
 ## code to prepare `DATASET` dataset goes here
+library(readr)
 
-usethis::use_data(DATASET, overwrite = TRUE)
+alProp <- read_csv("data-raw/aluminum_pure.csv")
+
+usethis::use_data(alProp, overwrite = TRUE)
