@@ -29,3 +29,15 @@ install.packages("devtools")
 devtools::install_github("JakubTk/aluminumProperties")
 ```
 
+## Example
+
+This is a basic example which shows how to solve a common problem:
+
+```{r example}
+library(aluminumProperties)
+
+## basic example code
+alProp |> 
+  head() |> 
+  knitr::kable()
+```
